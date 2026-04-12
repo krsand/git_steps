@@ -72,7 +72,7 @@ so it is done. we can see everything in github webpage now
     
 2. Create new branch
 ```shell
-    git checkout -b "feature_branch_name"
+    git checkout -b "new_branch"
 ```
 3. Make required changes in repo
 4. Add those changes to repo 
@@ -86,7 +86,7 @@ so it is done. we can see everything in github webpage now
 6. Push the code
 
 ``` shell
-    git push --set-upstream origin master
+    git push --set-upstream origin new_branch
 ```
 this step will give one url for example
 
