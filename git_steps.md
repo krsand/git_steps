@@ -41,5 +41,28 @@ if you simply mention these steps it will be enough
 ``` shell
     git add .
 ```
+Now every  thing is saved locally
+now I need to commit everything
 
+```shell
+    git commit -m "first commit"
+```
+so all changes are commited now
 
+## Now link local repo with remote repo 
+-- NOTE: this is one time step. THis is done only when you are initializing repo from your local
+which we don't do usually
+mostly we get repo link directly from team
+
+command
+``` shell
+    git remote add origin https://github.com/krsand/git_steps.git
+```
+
+now it is linked. so we can push code to remote repo
+
+command 
+``` shell
+ git push --set-upstream origin master
+```
+so it is done. we can see everything in github webpage now
